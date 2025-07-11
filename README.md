@@ -1,2 +1,1 @@
-Config files for arch \n
-underscores (_) are slashes (/)
+Config files for arch, underscores (_) are slashes (/)
