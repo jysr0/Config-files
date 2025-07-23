@@ -1,3 +1,4 @@
+# in ~/ OR in ~/.config/ OR in ~/.config/alacritty/ 
 [window]
 dimensions = { columns = 88, lines = 27 }
 dynamic_padding = true
