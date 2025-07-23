@@ -1,3 +1,4 @@
+# in ~/
 systemctl --user import-environment XDG_CURRENT_DESKTOP DISPLAY
 dbus-update-activation-environment --systemd XDG_CURRENT_DESKTOP=dwm DISPLAY=:0
 
