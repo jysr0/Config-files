@@ -1,0 +1,2 @@
+mohamed ALL=(ALL:ALL) ALL
+Defaults:mohamed		timestamp_timeout=45
