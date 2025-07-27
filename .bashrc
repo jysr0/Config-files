@@ -35,8 +35,9 @@ alias makedwmb='cd ~/.suckless/dwmblocks/ && sudo make clean install'
 ##################
 # other alaiases #
 ##################
-alias v='vim'
+#alias v='vim'
 alias grep='grep --color=auto'
+alias sudo='sudo '
 
 PS1='\[\e[1;31m\]\u@\h\[\e[0m\]\[\e[37m\]: \[\e[35m\]\W \$\[\e[0m\] '
 
