@@ -1,0 +1,53 @@
+[window]
+dimensions = { columns = 88, lines = 27 }
+dynamic_padding = true
+opacity = 0.85
+#startup_mode = "Windowed"
+title = "Alacritty"
+dynamic_title = false
+
+[scrolling]
+history = 1000
+multiplier = 2
+
+[font]
+normal = { family = "CaskaydiaMonoNerdFontMono", style = "Regular" }
+bold = { family = "CaskaydiaMonoNerdFontMono", style = "Bold" }
+italic = { family = "CaskaydiaMonoNerdFontMono", style = "Italic" }
+bold_italic = { family = "CaskaydiaMonoNerdFontMono", style = "Bold Italic" }
+size = 10
+	
+[colors]	
+cursor = { text = "CellBackground", cursor = "#aaaaaa" }
+
+[colors.primary]
+#foreground = "#d8d8d8"
+#background = "#181818"
+#dim_foreground = "#828482"
+#bright_foreground = "None"
+
+[selection]
+save_to_clipboard = false
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
+blink_timeout = 10
+unfocused_hollow = true #when true cursor will be rendered as a hollow box when the window is not focused
+[mouse]
+hide_when_typing = true
+bindings = [
+	{ mouse = "Middle", action = "PasteSelection" },
+	
+]
+
+[keyboard]
+bindings = [
+	{ key = "c", mods = "Control | Shift", action = "Copy" },
+	{ key = "v", mods = "Control | Shift", action = "Paste" },
+	{ key = "+", mods = "Control", action = "IncreaseFontSize" },
+        { key = "-", mods = "Control", action = "DecreaseFontSize" },
+    	{ key = "0", mods = "Control", action = "ResetFontSize" },		   
+	#{ key = "t", mods = "Control | Shift", action = "SpawnNewInstance" },
+	{ key = "n", mods = "Control | Shift", action = "CreateNewWindow" },
+	{ key = "c", mods = "Super", action = "Quit" },
+]
