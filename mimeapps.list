@@ -1,4 +1,5 @@
-~/.local/share/applications
+#~/.local/share/applications
+
 [Default Applications]
 inode/directory=thunar.desktop
 #application/x-gnome-saved-search=nemo.desktop
