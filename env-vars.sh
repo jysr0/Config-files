@@ -1,3 +1,6 @@
+# /etc/profile.d/
+# set env variables globaly and persistently
+
 export DISPLAY=":0"
 
 export HOME="$HOME"
