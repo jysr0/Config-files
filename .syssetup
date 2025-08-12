@@ -44,12 +44,18 @@ install: webkit2gtk-4.(something) & gcr
 
 # packages to install:
 lm_sensors (cpu temperature... )
-pulseaudio-ctl (aur)
+pamixer
+pipewire / pipewire-alsa/ pipewire-pulse / wireplumber
 networkmanager
 alacritty (terminal emulator)
 google-chrome (aur)
 youtube-dl (aur)
 figlet (for fun... )
+alsa-utils
+brightnessctl
+acpi
+noto-fonts-emoji
+libnotify
 flamshot (screenshots)
 lf/ranger (terminal file manager)
 thunar 
@@ -63,4 +69,5 @@ dwmblocks
 dwm
 dmenu
 st (terminal)
+
 
