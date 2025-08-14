@@ -1,5 +1,7 @@
 # this setup is just my personal ideas and problem slutions that i wrot here...
 
+# edit env variables via systemd: systemctl --user (import/show/set/unset)-environment {env variable...}
+
 # dwm backend portals configuration (recommended):
 1) create ~/.config/environment.d/ then touch 10-env-var.conf in it.
 2) define all needed environment variable that you need (that dwm cannot find) like: XDG_CURRENT_DESKTOP, DISPLAY ..., as follows: 
