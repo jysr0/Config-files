@@ -1,4 +1,0 @@
-# in ~/.config/environement.d/
-# used to set env variables then they will be imported in .xinitrc
-XDG_CURRENT_DESKTOP=dwm
-DISPLAY=:0
