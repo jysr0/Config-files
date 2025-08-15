@@ -13,7 +13,7 @@
 	dbus-update-activation-environment --systemd XDG_CURRENT_DESKTOP=dwm DISPLAY=:0
 
 # dwm backend portals another way configuration:
-* export environment variables dwm could not find in ~/.xinitrc
+export environment variables dwm could not find in ~/.xinitrc
 
 # dwm execution (startup automatically):
 1) install startx 
@@ -46,30 +46,33 @@ install: webkit2gtk-4.(something) & gcr
 
 # packages to install:
 lm_sensors (cpu temperature... )
+
 pamixer
 pipewire / pipewire-alsa/ pipewire-pulse / wireplumber
-networkmanager
-alacritty (terminal emulator)
-google-chrome (aur)
-youtube-dl (aur)
-figlet (for fun... )
 alsa-utils
 brightnessctl
 acpi
-noto-fonts-emoji
 libnotify
-flamshot (screenshots)
-lf/ranger (terminal file manager)
-thunar 
+
+networkmanager
+alacritty (terminal emulator)
+youtube-dl (aur)
+figlet (for fun... )
 sxiv (image viewer)
 vlc/mpv (video player, codecs)
 feh (for setting wallpaper)
 dunst (notification daemon)
-startx (to start dwm)
+flamshot (screenshots)
+lf/ranger (terminal file manager)
 picom (for transparency/alpha)
+
+noto-fonts-emoji / joypixels
+ttf-noto-nerd
+noto-fonts-cjk
+noto-fonts
+
+startx (to start dwm)
 dwmblocks
 dwm
 dmenu
 st (terminal)
-
-
