@@ -89,7 +89,8 @@ user_pref("browser.startup.page", 3);
 /* 0103: set HOME+NEWWINDOW page
  * about:home=Firefox Home (default, see 0105), custom URLs..., Blank Page
  * [SETTING] Home>New Windows and Tabs>Homepage and new windows ***/
-user_pref("browser.startup.homepage", "chrome://browser/content/blanktab.html");
+	//default: user_pref("browser.startup.homepage", "chrome://browser/content/blanktab.html");
+	user_pref("browser.startup.homepage", "about:home");
 /* 0104: set NEWTAB page
  * true=Firefox Home (default, see 0105), false=blank page
  * [SETTING] Home>New Windows and Tabs>New tabs ***/
@@ -832,7 +833,7 @@ user_pref("privacy.resistFingerprinting.block_mozAddonManager", true);
  * [SETTING] General>Language>Choose your preferred language for displaying pages>Choose>Request English... ***/
 user_pref("privacy.spoof_english", 1);
 /* 4507: skip browser.startup.blankWindow if RFP is used [FF136+] ***/
-   // user_pref("privacy.resistFingerprinting.skipEarlyBlankFirstPaint", true); // [DEFAULT: true]
+      user_pref("privacy.resistFingerprinting.skipEarlyBlankFirstPaint", true); // [DEFAULT: true]
 /* 4510: disable using system colors
  * [SETTING] General>Language and Appearance>Fonts and Colors>Colors>Use system colors ***/
 user_pref("browser.display.use_system_colors", false); // [DEFAULT: false NON-WINDOWS]
