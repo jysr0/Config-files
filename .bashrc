@@ -9,10 +9,9 @@
 #  ls aliases  #
 ################
 
-alias ls='ls --color=auto'
-alias ll='ls -lAFh --color=auto'
-alias la='ls -AF --color=auto'
-alias ls='ls -F --color=auto'
+alias ll='ls -lAFh --color=auto --group-directories-first'
+alias la='ls -AF --color=auto --group-directories-first'
+alias ls='ls -F --color=auto --group-directories-first'
 
 ################
 #  rm aliases  #
@@ -25,14 +24,14 @@ alias ls='ls -F --color=auto'
 #  DWM aliases  #
 #################
 
-alias confdwm='vim ~/.suckless/dwm/config.h'
-alias makedwm='cd ~/.suckless/dwm/ && sudo make clean install'
-alias confdmenu='vim ~/.suckless/dmenu/config.h'
-alias makedmenu='cd ~/.suckless/dmenu/ && sudo make clean install'
-alias confst='sudo vim ~/.suckless/st/config.h'
-alias makest='cd ~/.suckless/st/ && sudo make clean install'
-alias confdwmb='vim ~/.suckless/dwmblocks/blocks.h'
-alias makedwmb='cd ~/.suckless/dwmblocks/ && sudo make clean install'
+alias dwmc='sudo vim ~/.suckless/dwm/config.h'
+alias dwmm='cd ~/.suckless/dwm/ && sudo make clean install && cd ~'
+alias dmc='sudo vim ~/.suckless/dmenu/config.h'
+alias dmm='cd ~/.suckless/dmenu/ && sudo make clean install && cd ~'
+alias stc='sudo sudo vim ~/.suckless/st/config.h'
+alias stm='cd ~/.suckless/st/ && sudo make clean install && cd ~'
+alias dwmbc='sudo vim ~/.suckless/dwmblocks/blocks.h'
+alias dwmbm='cd ~/.suckless/dwmblocks/ && sudo make clean install  && cd ~'
 ##################
 # other alaiases #
 ##################
@@ -42,6 +41,6 @@ alias grep='grep --color=auto'
 alias sudo='sudo '
 alias sn='~/Downloads/Simplenote-linux-2.23.2-x64/simplenote'
 
-PS1='\[\e[1;38:5:141m\][\u@\h \W]\$\[\e[0m\] ' # \e[ = \033[ #
+PS1='\[\e[1;38:5:85m\][\u@\h \W]\$\[\e[0m\] ' # \e[ = \033[ #
 
 
