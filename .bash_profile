@@ -7,7 +7,6 @@
 
 export DISPLAY=":0"
 
-export BROWSER="brave"
 export HOME="$HOME"
 export PATH="$PATH:$HOME/.scripts"
 
@@ -33,7 +32,7 @@ export XDG_TEMPLATES_DIR="$HOME/Templates"
 export XDG_WALLPAPERS_DIR="$HOME/Downloads/wallpapers"
 #export XDG_PUBLICSHARE_DIR="$HOME/"
 export EDITOR="vim"
-export BROWSER="firefox"
+export BROWSER="librewolf"
 export TERM="alacritty"
 
 exec startx dwm
