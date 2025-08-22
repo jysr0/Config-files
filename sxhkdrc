@@ -1,0 +1,16 @@
+# BRIGHTNESS
+XF86MonBrightnessUp
+	brightnessctl set 2%+ && pkill -RTMIN+2 dwmblocks
+
+XF86MonBrightnessDown
+	brightnessctl set 2%- && pkill -RTMIN+2 dwmblocks
+
+# VOLUME
+XF86AudioRaiseVolume
+	pamixer -i 2 && pkill -RTMIN+5 dwmblocks
+
+XF86AudioLowerVolume
+	pamixer -d 2 && pkill -RTMIN+5 dwmblocks
+
+XF86AudioMute
+	pamixer -t && pkill -RTMIN+5 dwmblocks
