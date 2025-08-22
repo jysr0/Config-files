@@ -4,9 +4,10 @@ dbus-update-activation-environment XDG_CURRENT_DESKTOP DISPLAY # used for filech
 
 setxkbmap -model acer_laptop -option grp:alt_shift_toggle us,ara
 
-feh --bg-fill $XDG_WALLPAPERS_DIR/19.jpg 
+xwallpaper --stretch $XDG_PICTURES_DIR/wallpapers/2.jpg
 picom -b
 
+sxhkd &
 #dunst &
 systemctl --user start dunst.service
 
