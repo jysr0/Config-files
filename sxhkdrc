@@ -14,3 +14,19 @@ XF86AudioLowerVolume
 
 XF86AudioMute
 	pamixer -t && pkill -RTMIN+5 dwmblocks
+
+# DEFAULT BROWSER
+super + w
+	$BROWSER
+
+# DEFAULT FILE MANAGER
+super + e
+	lf ~
+
+# EMOJIS
+alt + e
+	dmenu_emojis.sh
+
+# set WALLPAPER
+alt + w
+	dmenu_wallpapers.sh
